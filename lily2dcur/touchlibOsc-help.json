@@ -1,0 +1,55 @@
+var patch={'version':'0.1-public_beta-2','platform':'windows','title':'touchlibOsc-help','width':596,'height':555,'color':'#FFFFFF','mode':'performance','objArray':{
+	'oscreceive!uid=1220547435784':{'name':'oscreceive','top':116,'left':107,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':1,'height':16,'width':82,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'3333','objID':'oscreceive!uid=1220547435784','type':'object'},
+	'print!uid=1220547458616':{'name':'print','top':323,'left':122,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':3,'height':16,'width':34,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'print!uid=1220547458616','type':'object'},
+	'prepend!uid=1220547511216':{'name':'prepend','top':245,'left':104,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':4,'height':16,'width':94,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'finger list:','objID':'prepend!uid=1220547511216','type':'object'},
+	'prepend!uid=1220547531438':{'name':'prepend','top':245,'left':229,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':5,'height':16,'width':135,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'finger coordinates:','objID':'prepend!uid=1220547531438','type':'object'},
+	'launchurl!uid=1220547676904':{'name':'launchurl','top':27,'left':43,'color':'#FFFFFF','fontSize':'35','fontFamily':'Cambria','fontColor':'blue','opacity':1,'zIndex':6,'height':40,'width':203,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'http://2dcur.googlecode.com/ touchlibOsc','inspectorConfig':[{name:"linkURL", value:"http://2dcur.googlecode.com/", label:"Link URL", type:"string", input:"textarea"}, {name:"linkText", value:"touchlibOsc", label:"Link Text", type:"string", input:"textarea"}],'objID':'launchurl!uid=1220547676904','type':'object'},
+	'comment!uid=1220547756825':{'name':'comment','top':79,'left':179,'color':'transparent','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':7,'height':18,'width':390,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'process received OSC / TUIO messages from the NUIGroup OSC process.','inspectorConfig':[{name:"commentText", value:"process received OSC / TUIO messages from the NUIGroup OSC process.", label:"Comment Text", type:"string", input:"textarea"}],'objID':'comment!uid=1220547756825','type':'object'},
+	'array!uid=1220552040702':{'name':'array','top':184,'left':315,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':8,'height':16,'width':63,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'length','objID':'array!uid=1220552040702','type':'object'},
+	'number!uid=1220552050338':{'name':'number','top':328,'left':259,'color':'#FFFFFF','fontSize':'80','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':9,'height':97,'width':58,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','inspectorConfig':[{name:"minValue", value:"", label:"Minimum Value", type:"string", input:"text"}, {name:"maxValue", value:"", label:"Maximum Value", type:"string", input:"text"}, {name:"precVal", value:0, label:"Precision", type:"string", input:"text"}],'objID':'number!uid=1220552050338','type':'object'},
+	'comment!uid=1220552073256':{'name':'comment','top':369,'left':338,'color':'transparent','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':10,'height':18,'width':120,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'number of fingers active','inspectorConfig':[{name:"commentText", value:"number of fingers active", label:"Comment Text", type:"string", input:"textarea"}],'objID':'comment!uid=1220552073256','type':'object'},
+	'comment!uid=1220552095575':{'name':'comment','top':350,'left':17,'color':'transparent','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':11,'height':18,'width':143,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'prints data from both outlets','inspectorConfig':[{name:"commentText", value:"prints data from both outlets", label:"Comment Text", type:"string", input:"textarea"}],'objID':'comment!uid=1220552095575','type':'object'},
+	'touchlibOsc!uid=1220552134318':{'name':'touchlibOsc','top':162,'left':140,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':12,'height':16,'width':62,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'touchlibOsc!uid=1220552134318','type':'object'},
+	'prepend!uid=1220547511216.outlet1_print!uid=1220547458616.inlet1':{'inlet':'print!uid=1220547458616.inlet1','outlet':'prepend!uid=1220547511216.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:104,startTop:268,endLeft:104,endTop:287.5},
+{'orientation':'horizontal',startLeft:104,startTop:287.5,endLeft:122,endTop:287.5},
+{'orientation':'vertical',startLeft:122,startTop:287.5,endLeft:122,endTop:328}
+]
+},
+	'prepend!uid=1220547531438.outlet1_print!uid=1220547458616.inlet1':{'inlet':'print!uid=1220547458616.inlet1','outlet':'prepend!uid=1220547531438.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:229,startTop:268,endLeft:229,endTop:299.5},
+{'orientation':'horizontal',startLeft:229,startTop:299.5,endLeft:122,endTop:299.5},
+{'orientation':'vertical',startLeft:122,startTop:299.5,endLeft:122,endTop:328}
+]
+},
+	'array!uid=1220552040702.outlet1_number!uid=1220552050338.inlet1':{'inlet':'number!uid=1220552050338.inlet1','outlet':'array!uid=1220552040702.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:315,startTop:207,endLeft:315,endTop:216.5},
+{'orientation':'horizontal',startLeft:315,startTop:216.5,endLeft:259,endTop:216.5},
+{'orientation':'vertical',startLeft:259,startTop:216.5,endLeft:259,endTop:333}
+]
+},
+	'oscreceive!uid=1220547435784.outlet1_touchlibOsc!uid=1220552134318.inlet1':{'inlet':'touchlibOsc!uid=1220552134318.inlet1','outlet':'oscreceive!uid=1220547435784.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:107,startTop:139,endLeft:107,endTop:156.5},
+{'orientation':'horizontal',startLeft:107,startTop:156.5,endLeft:140,endTop:156.5},
+{'orientation':'vertical',startLeft:140,startTop:156.5,endLeft:140,endTop:167}
+]
+},
+	'touchlibOsc!uid=1220552134318.outlet1_prepend!uid=1220547511216.inlet1':{'inlet':'prepend!uid=1220547511216.inlet1','outlet':'touchlibOsc!uid=1220552134318.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:140,startTop:185,endLeft:140,endTop:221.5},
+{'orientation':'horizontal',startLeft:140,startTop:221.5,endLeft:104,endTop:221.5},
+{'orientation':'vertical',startLeft:104,startTop:221.5,endLeft:104,endTop:250}
+]
+},
+	'touchlibOsc!uid=1220552134318.outlet2_prepend!uid=1220547531438.inlet1':{'inlet':'prepend!uid=1220547531438.inlet1','outlet':'touchlibOsc!uid=1220552134318.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:192,startTop:185,endLeft:192,endTop:220.5},
+{'orientation':'horizontal',startLeft:192,startTop:220.5,endLeft:229,endTop:220.5},
+{'orientation':'vertical',startLeft:229,startTop:220.5,endLeft:229,endTop:250}
+]
+},
+	'touchlibOsc!uid=1220552134318.outlet1_array!uid=1220552040702.inlet1':{'inlet':'array!uid=1220552040702.inlet1','outlet':'touchlibOsc!uid=1220552134318.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:140,startTop:185,endLeft:140,endTop:191},
+{'orientation':'horizontal',startLeft:140,startTop:191,endLeft:315,endTop:191},
+{'orientation':'vertical',startLeft:315,startTop:191,endLeft:315,endTop:189}
+]
+}}
+}

@@ -1,0 +1,66 @@
+var patch={'version':'0.1-public_beta-2','platform':'windows','title':'touchspot-help','width':570,'height':463,'color':'#FFFFFF','mode':'performance','objArray':{
+	'oscreceive!uid=1220547435784':{'name':'oscreceive','top':76,'left':20,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':1,'height':16,'width':82,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'3333','objID':'oscreceive!uid=1220547435784','type':'object'},
+	'tuioSimulator!uid=1220547448903':{'name':'tuioSimulator','top':116,'left':18,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':2,'height':16,'width':71,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'tuioSimulator!uid=1220547448903','type':'object'},
+	'launchurl!uid=1220547676904':{'name':'launchurl','top':6,'left':13,'color':'#FFFFFF','fontSize':'35','fontFamily':'Cambria','fontColor':'blue','opacity':1,'zIndex':6,'height':40,'width':203,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'http://2dcur.googlecode.com/ touchspot','inspectorConfig':[{name:"linkURL", value:"http://2dcur.googlecode.com/", label:"Link URL", type:"string", input:"textarea"}, {name:"linkText", value:"touchspot", label:"Link Text", type:"string", input:"textarea"}],'objID':'launchurl!uid=1220547676904','type':'object'},
+	'comment!uid=1220547756825':{'name':'comment','top':56,'left':142,'color':'transparent','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':7,'height':18,'width':390,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'filtering of touch events from 2dcur messages','inspectorConfig':[{name:"commentText", value:"filtering of touch events from 2dcur messages", label:"Comment Text", type:"string", input:"textarea"}],'objID':'comment!uid=1220547756825','type':'object'},
+	'touchdb!uid=1220552270166':{'name':'touchdb','top':170,'left':15,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':5,'height':16,'width':112,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'touchdb!uid=1220552270166','type':'object'},
+	'touchspot!uid=1220553307015':{'name':'touchspot','top':152,'left':172,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':1,'height':16,'width':180,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'200 200 400 400 1024 768','objID':'touchspot!uid=1220553307015','type':'object'},
+	'touchhistory!uid=1220553394510':{'name':'touchhistory','top':260,'left':39,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':7,'height':16,'width':68,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'touchhistory!uid=1220553394510','type':'object'},
+	'toSource!uid=1220553414815':{'name':'toSource','top':306,'left':38,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':8,'height':16,'width':48,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'toSource!uid=1220553414815','type':'object'},
+	'print!uid=1220553420431':{'name':'print','top':349,'left':38,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':9,'height':16,'width':34,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'print!uid=1220553420431','type':'object'},
+	'comment!uid=1220553536736':{'name':'comment','top':207,'left':191,'color':'transparent','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':11,'height':42,'width':247,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'filters the touch events so that only the stats of fingers touched within a bounding  box of 200,200 to 400,400 in an area of  1024 x 768 are kept','inspectorConfig':[{name:"commentText", value:"filters the touch events so that only the stats of fingers touched within a bounding  box of 200,200 to 400,400 in an area of  1024 x 768 are kept", label:"Comment Text", type:"string", input:"textarea"}],'objID':'comment!uid=1220553536736','type':'object'},
+	'oscreceive!uid=1220547435784.outlet1_tuioSimulator!uid=1220547448903.inlet1':{'inlet':'tuioSimulator!uid=1220547448903.inlet1','outlet':'oscreceive!uid=1220547435784.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:20,startTop:99,endLeft:20,endTop:118.5},
+{'orientation':'horizontal',startLeft:20,startTop:118.5,endLeft:18,endTop:118.5},
+{'orientation':'vertical',startLeft:18,startTop:118.5,endLeft:18,endTop:121}
+]
+},
+	'tuioSimulator!uid=1220547448903.outlet1_touchdb!uid=1220552270166.inlet1':{'inlet':'touchdb!uid=1220552270166.inlet1','outlet':'tuioSimulator!uid=1220547448903.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:18,startTop:139,endLeft:18,endTop:163},
+{'orientation':'horizontal',startLeft:18,startTop:163,endLeft:15,endTop:163},
+{'orientation':'vertical',startLeft:15,startTop:163,endLeft:15,endTop:175}
+]
+},
+	'tuioSimulator!uid=1220547448903.outlet2_touchdb!uid=1220552270166.inlet2':{'inlet':'touchdb!uid=1220552270166.inlet2','outlet':'tuioSimulator!uid=1220547448903.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:80,startTop:139,endLeft:80,endTop:163},
+{'orientation':'horizontal',startLeft:80,startTop:163,endLeft:117,endTop:163},
+{'orientation':'vertical',startLeft:117,startTop:163,endLeft:117,endTop:175}
+]
+},
+	'touchdb!uid=1220552270166.outlet3_touchspot!uid=1220553307015.inlet1':{'inlet':'touchspot!uid=1220553307015.inlet1','outlet':'touchdb!uid=1220552270166.outlet3','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:50,startTop:193,endLeft:50,endTop:220},
+{'orientation':'horizontal',startLeft:50,startTop:220,endLeft:172,endTop:220},
+{'orientation':'vertical',startLeft:172,startTop:220,endLeft:172,endTop:157}
+]
+},
+	'touchdb!uid=1220552270166.outlet2_touchhistory!uid=1220553394510.inlet1':{'inlet':'touchhistory!uid=1220553394510.inlet1','outlet':'touchdb!uid=1220552270166.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:34,startTop:193,endLeft:34,endTop:232},
+{'orientation':'horizontal',startLeft:34,startTop:232,endLeft:39,endTop:232},
+{'orientation':'vertical',startLeft:39,startTop:232,endLeft:39,endTop:265}
+]
+},
+	'touchdb!uid=1220552270166.outlet4_touchhistory!uid=1220553394510.inlet3':{'inlet':'touchhistory!uid=1220553394510.inlet3','outlet':'touchdb!uid=1220552270166.outlet4','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:66,startTop:193,endLeft:66,endTop:232.5},
+{'orientation':'horizontal',startLeft:66,startTop:232.5,endLeft:97,endTop:232.5},
+{'orientation':'vertical',startLeft:97,startTop:232.5,endLeft:97,endTop:265}
+]
+},
+	'touchspot!uid=1220553307015.outlet1_touchhistory!uid=1220553394510.inlet2':{'inlet':'touchhistory!uid=1220553394510.inlet2','outlet':'touchspot!uid=1220553307015.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:172,startTop:175,endLeft:172,endTop:256.5},
+{'orientation':'horizontal',startLeft:172,startTop:256.5,endLeft:68,endTop:256.5},
+{'orientation':'vertical',startLeft:68,startTop:256.5,endLeft:68,endTop:265}
+]
+},
+	'toSource!uid=1220553414815.outlet1_print!uid=1220553420431.inlet1':{'inlet':'print!uid=1220553420431.inlet1','outlet':'toSource!uid=1220553414815.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:38,startTop:329,endLeft:38,endTop:345.5},
+{'orientation':'horizontal',startLeft:38,startTop:345.5,endLeft:38,endTop:345.5},
+{'orientation':'vertical',startLeft:38,startTop:345.5,endLeft:38,endTop:354}
+]
+},
+	'touchhistory!uid=1220553394510.outlet1_toSource!uid=1220553414815.inlet1':{'inlet':'toSource!uid=1220553414815.inlet1','outlet':'touchhistory!uid=1220553394510.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:39,startTop:283,endLeft:39,endTop:300.5},
+{'orientation':'horizontal',startLeft:39,startTop:300.5,endLeft:38,endTop:300.5},
+{'orientation':'vertical',startLeft:38,startTop:300.5,endLeft:38,endTop:311}
+]
+}}
+}
