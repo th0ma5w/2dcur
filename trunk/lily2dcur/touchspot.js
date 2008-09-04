@@ -1,3 +1,6 @@
+/*
+* (c) 2008 Thomas Winningham winningham@gmail.com
+*/
 function $touchspot(param)
 {
 	var thisPtr=this;

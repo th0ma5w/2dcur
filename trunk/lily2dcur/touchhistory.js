@@ -1,3 +1,6 @@
+/*
+* (c) 2008 Thomas Winningham winningham@gmail.com
+*/
 function $touchhistory()
 {
 	var thisPtr=this;
