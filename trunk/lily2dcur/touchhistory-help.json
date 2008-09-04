@@ -1,0 +1,79 @@
+var patch={'version':'0.1-public_beta-2','platform':'windows','title':'touchhistory-help','width':576,'height':490,'color':'#FFFFFF','mode':'performance','objArray':{
+	'oscreceive!uid=1220547435784':{'name':'oscreceive','top':98,'left':42,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':1,'height':16,'width':82,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'3333','objID':'oscreceive!uid=1220547435784','type':'object'},
+	'tuioSimulator!uid=1220547448903':{'name':'tuioSimulator','top':126,'left':88,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':2,'height':16,'width':71,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'tuioSimulator!uid=1220547448903','type':'object'},
+	'launchurl!uid=1220547676904':{'name':'launchurl','top':13,'left':25,'color':'#FFFFFF','fontSize':'35','fontFamily':'Cambria','fontColor':'blue','opacity':1,'zIndex':6,'height':40,'width':203,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'http://2dcur.googlecode.com/ touchhistory','inspectorConfig':[{name:"linkURL", value:"http://2dcur.googlecode.com/", label:"Link URL", type:"string", input:"textarea"}, {name:"linkText", value:"touchhistory", label:"Link Text", type:"string", input:"textarea"}],'objID':'launchurl!uid=1220547676904','type':'object'},
+	'comment!uid=1220547756825':{'name':'comment','top':78,'left':168,'color':'transparent','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':7,'height':18,'width':390,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'a layered abstraction of touch events reasoned from 2dcur messages','inspectorConfig':[{name:"commentText", value:"a layered abstraction of touch events reasoned from 2dcur messages", label:"Comment Text", type:"string", input:"textarea"}],'objID':'comment!uid=1220547756825','type':'object'},
+	'touchdb!uid=1220552270166':{'name':'touchdb','top':180,'left':85,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':5,'height':16,'width':112,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'touchdb!uid=1220552270166','type':'object'},
+	'toSource!uid=1220552770903':{'name':'toSource','top':366,'left':29,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':27,'height':16,'width':48,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'toSource!uid=1220552770903','type':'object'},
+	'print!uid=1220552773935':{'name':'print','top':367,'left':174,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':28,'height':16,'width':34,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'print!uid=1220552773935','type':'object'},
+	'touchhistory!uid=1220553110222':{'name':'touchhistory','top':267,'left':196,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':9,'height':16,'width':68,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'touchhistory!uid=1220553110222','type':'object'},
+	'comment!uid=1220553170862':{'name':'comment','top':264,'left':268,'color':'transparent','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':9,'height':18,'width':138,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'history of still active fingers','inspectorConfig':[{name:"commentText", value:"history of still active fingers", label:"Comment Text", type:"string", input:"textarea"}],'objID':'comment!uid=1220553170862','type':'object'},
+	'touchhistory!uid=1220553186143':{'name':'touchhistory','top':305,'left':149,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':10,'height':16,'width':68,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'touchhistory!uid=1220553186143','type':'object'},
+	'comment!uid=1220553222757':{'name':'comment','top':304,'left':221,'color':'transparent','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':11,'height':18,'width':238,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'history of all fingers, ever (remove event missing)','inspectorConfig':[{name:"commentText", value:"history of all fingers, ever (remove event missing)", label:"Comment Text", type:"string", input:"textarea"}],'objID':'comment!uid=1220553222757','type':'object'},
+	'oscreceive!uid=1220547435784.outlet1_tuioSimulator!uid=1220547448903.inlet1':{'inlet':'tuioSimulator!uid=1220547448903.inlet1','outlet':'oscreceive!uid=1220547435784.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:42,startTop:121,endLeft:42,endTop:128.5},
+{'orientation':'horizontal',startLeft:42,startTop:128.5,endLeft:88,endTop:128.5},
+{'orientation':'vertical',startLeft:88,startTop:128.5,endLeft:88,endTop:131}
+]
+},
+	'tuioSimulator!uid=1220547448903.outlet1_touchdb!uid=1220552270166.inlet1':{'inlet':'touchdb!uid=1220552270166.inlet1','outlet':'tuioSimulator!uid=1220547448903.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:88,startTop:149,endLeft:88,endTop:173},
+{'orientation':'horizontal',startLeft:88,startTop:173,endLeft:85,endTop:173},
+{'orientation':'vertical',startLeft:85,startTop:173,endLeft:85,endTop:185}
+]
+},
+	'tuioSimulator!uid=1220547448903.outlet2_touchdb!uid=1220552270166.inlet2':{'inlet':'touchdb!uid=1220552270166.inlet2','outlet':'tuioSimulator!uid=1220547448903.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:150,startTop:149,endLeft:150,endTop:173},
+{'orientation':'horizontal',startLeft:150,startTop:173,endLeft:187,endTop:173},
+{'orientation':'vertical',startLeft:187,startTop:173,endLeft:187,endTop:185}
+]
+},
+	'toSource!uid=1220552770903.outlet1_print!uid=1220552773935.inlet1':{'inlet':'print!uid=1220552773935.inlet1','outlet':'toSource!uid=1220552770903.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:29,startTop:389,endLeft:29,endTop:391.5},
+{'orientation':'horizontal',startLeft:29,startTop:391.5,endLeft:174,endTop:391.5},
+{'orientation':'vertical',startLeft:174,startTop:391.5,endLeft:174,endTop:372}
+]
+},
+	'touchdb!uid=1220552270166.outlet2_touchhistory!uid=1220553110222.inlet1':{'inlet':'touchhistory!uid=1220553110222.inlet1','outlet':'touchdb!uid=1220552270166.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:104,startTop:203,endLeft:104,endTop:227},
+{'orientation':'horizontal',startLeft:104,startTop:227,endLeft:196,endTop:227},
+{'orientation':'vertical',startLeft:196,startTop:227,endLeft:196,endTop:272}
+]
+},
+	'touchdb!uid=1220552270166.outlet4_touchhistory!uid=1220553110222.inlet3':{'inlet':'touchhistory!uid=1220553110222.inlet3','outlet':'touchdb!uid=1220552270166.outlet4','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:136,startTop:203,endLeft:136,endTop:227},
+{'orientation':'horizontal',startLeft:136,startTop:227,endLeft:254,endTop:227},
+{'orientation':'vertical',startLeft:254,startTop:227,endLeft:254,endTop:272}
+]
+},
+	'touchdb!uid=1220552270166.outlet3_touchhistory!uid=1220553110222.inlet2':{'inlet':'touchhistory!uid=1220553110222.inlet2','outlet':'touchdb!uid=1220552270166.outlet3','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:120,startTop:203,endLeft:120,endTop:226.5},
+{'orientation':'horizontal',startLeft:120,startTop:226.5,endLeft:225,endTop:226.5},
+{'orientation':'vertical',startLeft:225,startTop:226.5,endLeft:225,endTop:272}
+]
+},
+	'touchhistory!uid=1220553110222.outlet1_toSource!uid=1220552770903.inlet1':{'inlet':'toSource!uid=1220552770903.inlet1','outlet':'touchhistory!uid=1220553110222.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:196,startTop:290,endLeft:196,endTop:340},
+{'orientation':'horizontal',startLeft:196,startTop:340,endLeft:29,endTop:340},
+{'orientation':'vertical',startLeft:29,startTop:340,endLeft:29,endTop:371}
+]
+},
+	'touchdb!uid=1220552270166.outlet2_touchhistory!uid=1220553186143.inlet1':{'inlet':'touchhistory!uid=1220553186143.inlet1','outlet':'touchdb!uid=1220552270166.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:104,startTop:203,endLeft:104,endTop:230.5},
+{'orientation':'horizontal',startLeft:104,startTop:230.5,endLeft:149,endTop:230.5},
+{'orientation':'vertical',startLeft:149,startTop:230.5,endLeft:149,endTop:310}
+]
+},
+	'touchdb!uid=1220552270166.outlet3_touchhistory!uid=1220553186143.inlet2':{'inlet':'touchhistory!uid=1220553186143.inlet2','outlet':'touchdb!uid=1220552270166.outlet3','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:120,startTop:203,endLeft:120,endTop:230},
+{'orientation':'horizontal',startLeft:120,startTop:230,endLeft:178,endTop:230},
+{'orientation':'vertical',startLeft:178,startTop:230,endLeft:178,endTop:310}
+]
+},
+	'touchhistory!uid=1220553186143.outlet1_toSource!uid=1220552770903.inlet1':{'inlet':'toSource!uid=1220552770903.inlet1','outlet':'touchhistory!uid=1220553186143.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:149,startTop:328,endLeft:149,endTop:358},
+{'orientation':'horizontal',startLeft:149,startTop:358,endLeft:29,endTop:358},
+{'orientation':'vertical',startLeft:29,startTop:358,endLeft:29,endTop:371}
+]
+}}
+}

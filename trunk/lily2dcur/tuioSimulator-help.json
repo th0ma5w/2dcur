@@ -1,0 +1,55 @@
+var patch={'version':'0.1-public_beta-2','platform':'windows','title':'tuioSimulator-help','width':586,'height':531,'color':'#FFFFFF','mode':'performance','objArray':{
+	'oscreceive!uid=1220547435784':{'name':'oscreceive','top':111,'left':106,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':1,'height':16,'width':82,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'3333','objID':'oscreceive!uid=1220547435784','type':'object'},
+	'print!uid=1220547458616':{'name':'print','top':318,'left':121,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':3,'height':16,'width':34,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'print!uid=1220547458616','type':'object'},
+	'prepend!uid=1220547511216':{'name':'prepend','top':240,'left':103,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':4,'height':16,'width':94,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'finger list:','objID':'prepend!uid=1220547511216','type':'object'},
+	'prepend!uid=1220547531438':{'name':'prepend','top':240,'left':228,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':5,'height':16,'width':135,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'finger coordinates:','objID':'prepend!uid=1220547531438','type':'object'},
+	'launchurl!uid=1220547676904':{'name':'launchurl','top':8,'left':23,'color':'#FFFFFF','fontSize':'35','fontFamily':'Cambria','fontColor':'blue','opacity':1,'zIndex':6,'height':40,'width':203,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'http://2dcur.googlecode.com/ tuioSimulator','inspectorConfig':[{name:"linkURL", value:"http://2dcur.googlecode.com/", label:"Link URL", type:"string", input:"textarea"}, {name:"linkText", value:"tuioSimulator", label:"Link Text", type:"string", input:"textarea"}],'objID':'launchurl!uid=1220547676904','type':'object'},
+	'comment!uid=1220547756825':{'name':'comment','top':68,'left':168,'color':'transparent','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':7,'height':18,'width':390,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'process received OSC / TUIO messages from the reacTivision TUIO Simulator.','inspectorConfig':[{name:"commentText", value:"process received OSC / TUIO messages from the reacTivision TUIO Simulator.", label:"Comment Text", type:"string", input:"textarea"}],'objID':'comment!uid=1220547756825','type':'object'},
+	'array!uid=1220552040702':{'name':'array','top':179,'left':314,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':8,'height':16,'width':63,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'length','objID':'array!uid=1220552040702','type':'object'},
+	'number!uid=1220552050338':{'name':'number','top':323,'left':258,'color':'#FFFFFF','fontSize':'80','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':9,'height':97,'width':58,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','inspectorConfig':[{name:"minValue", value:"", label:"Minimum Value", type:"string", input:"text"}, {name:"maxValue", value:"", label:"Maximum Value", type:"string", input:"text"}, {name:"precVal", value:0, label:"Precision", type:"string", input:"text"}],'objID':'number!uid=1220552050338','type':'object'},
+	'comment!uid=1220552073256':{'name':'comment','top':364,'left':337,'color':'transparent','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':10,'height':18,'width':120,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'number of fingers active','inspectorConfig':[{name:"commentText", value:"number of fingers active", label:"Comment Text", type:"string", input:"textarea"}],'objID':'comment!uid=1220552073256','type':'object'},
+	'comment!uid=1220552095575':{'name':'comment','top':345,'left':16,'color':'transparent','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':11,'height':18,'width':143,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','args':'prints data from both outlets','inspectorConfig':[{name:"commentText", value:"prints data from both outlets", label:"Comment Text", type:"string", input:"textarea"}],'objID':'comment!uid=1220552095575','type':'object'},
+	'tuioSimulator!uid=1220552977582':{'name':'tuioSimulator','top':161,'left':107,'color':'#FFFFFF','fontSize':'12','fontFamily':'Cambria','fontColor':'#000000','opacity':1,'zIndex':11,'height':16,'width':71,'visibility':'visible','hiddenInPerf':false,'groupName':'','cssName':'','customColor':'false','objID':'tuioSimulator!uid=1220552977582','type':'object'},
+	'prepend!uid=1220547511216.outlet1_print!uid=1220547458616.inlet1':{'inlet':'print!uid=1220547458616.inlet1','outlet':'prepend!uid=1220547511216.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:103,startTop:263,endLeft:103,endTop:282.5},
+{'orientation':'horizontal',startLeft:103,startTop:282.5,endLeft:121,endTop:282.5},
+{'orientation':'vertical',startLeft:121,startTop:282.5,endLeft:121,endTop:323}
+]
+},
+	'prepend!uid=1220547531438.outlet1_print!uid=1220547458616.inlet1':{'inlet':'print!uid=1220547458616.inlet1','outlet':'prepend!uid=1220547531438.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:228,startTop:263,endLeft:228,endTop:294.5},
+{'orientation':'horizontal',startLeft:228,startTop:294.5,endLeft:121,endTop:294.5},
+{'orientation':'vertical',startLeft:121,startTop:294.5,endLeft:121,endTop:323}
+]
+},
+	'array!uid=1220552040702.outlet1_number!uid=1220552050338.inlet1':{'inlet':'number!uid=1220552050338.inlet1','outlet':'array!uid=1220552040702.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:314,startTop:202,endLeft:314,endTop:211.5},
+{'orientation':'horizontal',startLeft:314,startTop:211.5,endLeft:258,endTop:211.5},
+{'orientation':'vertical',startLeft:258,startTop:211.5,endLeft:258,endTop:328}
+]
+},
+	'oscreceive!uid=1220547435784.outlet1_tuioSimulator!uid=1220552977582.inlet1':{'inlet':'tuioSimulator!uid=1220552977582.inlet1','outlet':'oscreceive!uid=1220547435784.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:106,startTop:134,endLeft:106,endTop:153.5},
+{'orientation':'horizontal',startLeft:106,startTop:153.5,endLeft:107,endTop:153.5},
+{'orientation':'vertical',startLeft:107,startTop:153.5,endLeft:107,endTop:166}
+]
+},
+	'tuioSimulator!uid=1220552977582.outlet1_prepend!uid=1220547511216.inlet1':{'inlet':'prepend!uid=1220547511216.inlet1','outlet':'tuioSimulator!uid=1220552977582.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:107,startTop:184,endLeft:107,endTop:219.5},
+{'orientation':'horizontal',startLeft:107,startTop:219.5,endLeft:103,endTop:219.5},
+{'orientation':'vertical',startLeft:103,startTop:219.5,endLeft:103,endTop:245}
+]
+},
+	'tuioSimulator!uid=1220552977582.outlet2_prepend!uid=1220547511216.inlet2':{'inlet':'prepend!uid=1220547511216.inlet2','outlet':'tuioSimulator!uid=1220552977582.outlet2','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:169,startTop:184,endLeft:169,endTop:218.5},
+{'orientation':'horizontal',startLeft:169,startTop:218.5,endLeft:187,endTop:218.5},
+{'orientation':'vertical',startLeft:187,startTop:218.5,endLeft:187,endTop:245}
+]
+},
+	'tuioSimulator!uid=1220552977582.outlet1_array!uid=1220552040702.inlet1':{'inlet':'array!uid=1220552040702.inlet1','outlet':'tuioSimulator!uid=1220552977582.outlet1','type':'connection','hiddenInPerf':false,'segmentArray':[
+{'orientation':'vertical',startLeft:107,startTop:184,endLeft:107,endTop:190},
+{'orientation':'horizontal',startLeft:107,startTop:190,endLeft:314,endTop:190},
+{'orientation':'vertical',startLeft:314,startTop:190,endLeft:314,endTop:184}
+]
+}}
+}
